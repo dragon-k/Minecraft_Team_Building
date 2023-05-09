@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>TeamCraft</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+
+</head>
+<body>
+<!-- header -->
+  <header>
+  	<h1 class="headline">
+      
+<style>
+.ichigyou img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.ichigyou span{
+    display: inline-block;
+}
+</style>
+<p class="ichigyou">
+    <img src="https://github.com/dragon-k/Minecraft_Team_Building/blob/main/dragon-k.png?raw=true" width="30">
+    <span>Teamcraft</span>
+</p>
+      
+    </h1>
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <a>ホーム</a>
+      </li>
+      <li class="nav-list-item">サイト説明</li>
+      <li class="nav-list-item">ゲームまとめ</li>
+      <li class="nav-list-item">参加応募</li>
+      <li class="nav-list-item">製作者</li>
+    </ul>
+  </header>
+  
+  </body>
+  </html>
