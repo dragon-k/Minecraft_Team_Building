@@ -32,5 +32,5 @@ header .headline{
 }
 
 p.sample1 img {
-    border-radius: 15px; /* ちょっとだけ角丸 */
+    border-radius: 100px; /* ちょっとだけ角丸 */
 }
