@@ -34,14 +34,3 @@ header .headline{
 p.sample1 img {
     border-radius: 15px; /* ちょっとだけ角丸 */
 }
-
-.game-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.game-item {
-  width: 30%;
-  margin: 10px;
-}
