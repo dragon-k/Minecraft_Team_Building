@@ -30,3 +30,7 @@ header .headline{
   height: 30px;
   width: 100%;
 }
+
+p.sample1 img {
+    border-radius: 15px; /* ちょっとだけ角丸 */
+}
