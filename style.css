@@ -35,24 +35,13 @@ p.sample1 img {
     border-radius: 15px; /* ちょっとだけ角丸 */
 }
 
-.image-slider {
+.game-grid {
   display: flex;
   flex-wrap: wrap;
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: 400px; /* 画像が3行に分かれるように高さを指定 */
+  justify-content: center;
 }
 
-.slide-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.slide {
-  flex: 1 0 33.33%; /* 1行に3つ表示するように */
-  max-width: 33.33%; /* 1行に3つ表示するように */
-  box-sizing: border-box;
-  padding: 10px;
-  text-align: center;
+.game-item {
+  width: 30%;
+  margin: 10px;
 }
