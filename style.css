@@ -34,3 +34,47 @@ header .headline{
 p.sample1 img {
     border-radius: 15px; /* ちょっとだけ角丸 */
 }
+
+
+
+.box29 {
+    margin: 2em 0;
+    background: #f0e68c;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #ff8c00;
+    padding: 6px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 0;
+}
